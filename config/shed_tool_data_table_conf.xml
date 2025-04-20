@@ -1,0 +1,283 @@
+<?xml version="1.0" ?>
+<tables>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/c7275bd8b4d6/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c7275bd8b4d6</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/c7275bd8b4d6/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c7275bd8b4d6</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="bwa_mem_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/bwa/1dfc975b48d5/bwa_mem_index.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bwa</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>1dfc975b48d5</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/32dc5f781059/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>samtools_view</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>32dc5f781059</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/541082d03bef/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>samtools_stats</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>541082d03bef</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="picard_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/picard/3f254c5ced1d/picard_index.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>picard</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>3f254c5ced1d</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/aa35ee7f3ab2/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lofreq_viterbi</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>aa35ee7f3ab2</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/5b80f544c67f/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5b80f544c67f</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/5b80f544c67f/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5b80f544c67f</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/lofreq_indelqual/971e07ca4456/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lofreq_indelqual</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>971e07ca4456</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/b11e8e9c23bf/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lofreq_call</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>b11e8e9c23bf</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/lofreq_filter/7dfca164d2e3/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lofreq_filter</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>7dfca164d2e3</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/c7275bd8b4d6/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c7275bd8b4d6</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/c7275bd8b4d6/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c7275bd8b4d6</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/6322be79bd8e/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>6322be79bd8e</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/6322be79bd8e/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>6322be79bd8e</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/5c7b70713fb5/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5c7b70713fb5</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/5c7b70713fb5/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5c7b70713fb5</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_genomedb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/de67e5082c48/snpeffv_genomedb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>de67e5082c48</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="snpeffv_regulationdb" comment_char="#" allow_duplicate_entries="False">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/de67e5082c48/snpeffv_regulationdb.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>de67e5082c48</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="gene_sets" comment_char="#" allow_duplicate_entries="False">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/stringtie/cbf488da3b2c/gene_sets.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>stringtie</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>cbf488da3b2c</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/6926716bbfb5/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cufflinks</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>6926716bbfb5</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="gene_sets" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/5dbff3a5845a/gene_sets.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>featurecounts</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5dbff3a5845a</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="featurecounts_anno" comment_char="#">
+        <columns>value, dbkey</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/5dbff3a5845a/featurecounts_anno.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>featurecounts</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5dbff3a5845a</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="fasta_indexes" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/2892111d91f8/fasta_indexes.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>2892111d91f8</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="all_gff" comment_char="#">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/2892111d91f8/all_gff.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>2892111d91f8</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="__dbkeys__" comment_char="#">
+        <columns>value, name, len_path</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/2892111d91f8/dbkeys.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>2892111d91f8</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+    <table name="rnastar_index2x_versioned" comment_char="#" allow_duplicate_entries="False">
+        <columns>value, dbkey, name, path, with_gene_model, version</columns>
+        <file path="/mnt/hdd_2/tibebe/galaxy_remote/galaxy/tool-data/toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/53255f6eecfc/rnastar_index2x_versioned.loc"/>
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>rgrnastar</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>53255f6eecfc</installed_changeset_revision>
+        </tool_shed_repository>
+    </table>
+</tables>
