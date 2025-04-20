@@ -1,0 +1,23 @@
+<tool id="interactive_tool_node_express" tool_type="interactive" name="Node Express App" version="0.1">
+    <description>My custom interactive node tool</description>
+    <requirements>
+        <container type="docker">my-node-image</container>
+    </requirements>
+    <entry_points>
+        <entry_point name="Node gxit"  label="Node tools" requires_domain="False" requires_path_in_url="True">
+            <port>3000</port>
+            <url>/</url>
+        </entry_point>
+    </entry_points>
+    <command><![CDATA[
+        node /app/server.js
+    ]]></command>
+    <inputs>
+        <data name="input_file" format="txt"/>
+    </inputs>
+    <outputs>
+        <data name="output_file" format="txt"/>
+    </outputs>
+    <tests></tests>
+    <help>This tool runs a Node.js application that provides an interactive interface.</help>
+</tool>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toolbox>
+
+
+    <section id="interactivetools" name="Interactive tools">
+        <tool file="interactive/interactivetool_copernicus.xml" />
+        <tool file="interactive/interactivetool_tabulator.xml" />
+        <tool file="interactive/interactive_node_tool.xml" />
+        <tool file="interactive/interactivetool_jupyter_notebook_1.0.0.xml" />
+
+  </section>
+</toolbox>
