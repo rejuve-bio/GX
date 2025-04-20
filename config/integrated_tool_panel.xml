@@ -257,8 +257,6 @@
 
     <section id="hgv" name="Phenotype Association" version="">
 
-        <tool id="hgv_sift" />
-
         <tool id="hgv_linkToGProfile" />
 
         <tool id="hgv_david" />
