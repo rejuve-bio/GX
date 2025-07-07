@@ -1,0 +1,21 @@
+destination:
+  type: library
+  name: cvmfs
+  description: cvmfs data
+  synopsis: cvmfs
+items:
+- url: https://zenodo.org/records/582600/files/wildtype.fna
+  src: url
+  ext: fasta
+  info: https://doi.org/10.5281/zenodo.582600
+- name: A directory
+  description: Exome sequencing means that all protein-coding genes in a genome are
+  items:
+  - url: https://zenodo.org/records/582600/files/mutant_R1.fastq
+    src: url
+    ext: fastqsanger
+    info: https://doi.org/10.5281/zenodo.582600
+  - url: https://zenodo.org/records/582600/files/mutant_R2.fastq
+    src: url
+    ext: fastqsanger
+    info: https://doi.org/10.5281/zenodo.582600
