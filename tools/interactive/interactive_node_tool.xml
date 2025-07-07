@@ -1,4 +1,5 @@
 <tool id="interactive_tool_node_express" tool_type="interactive" name="Node Express App" version="0.1">
+    <icon src="hic.png"/>
     <description>My custom interactive node tool</description>
     <requirements>
         <container type="docker">my-node-image</container>
