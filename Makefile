@@ -1,3 +1,5 @@
+include startup.mk
+
 # Location of virtualenv used for development.
 VENV?=.venv
 # Source virtualenv to execute command (darker, sphinx, twine, etc...)
