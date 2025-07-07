@@ -19,6 +19,7 @@
     <datatype extension="anvio_classifier" type="galaxy.datatypes.data:Data" display_in_upload="false" subclass="true" />
     <datatype extension="anvio_contigs_db" type="galaxy.datatypes.anvio:AnvioContigsDB" display_in_upload="false" />
     <datatype extension="anvio_db" type="galaxy.datatypes.anvio:AnvioDB" display_in_upload="false" />
+    <datatype extension="bwa_mem2_index" display_in_upload="true" type="galaxy.datatypes.data:Directory" subclass="true"/>
     <datatype extension="anvio_genomes_db" type="galaxy.datatypes.anvio:AnvioGenomesDB" display_in_upload="false" />
     <datatype extension="anvio_pan_db" type="galaxy.datatypes.anvio:AnvioPanDB" display_in_upload="false" />
     <datatype extension="anvio_pfam_profile" type="galaxy.datatypes.anvio:AnvioComposite" display_in_upload="false" subclass="true" />

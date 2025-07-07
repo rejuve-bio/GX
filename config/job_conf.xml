@@ -20,6 +20,7 @@
             <param id="type">docker_dispatch</param>
             <param id="docker_destination_id">docker_local</param>
             <param id="default_destination_id">local</param>
+            <param id="docker_enabled">true</param>
         </destination>
     </destinations>
 </job_conf>

@@ -555,7 +555,7 @@ galaxy:
   # will fail.
   # The value of this option will be resolved with respect to
   # <data_dir>.
-  #tool_dependency_dir: dependencies
+  #tool_dependency_dir: /home/icog-bioai2/miniconda3/bin/conda
 
   # Specifies the path to the standalone dependency resolvers
   # configuration file. This configuration can now be specified directly
@@ -568,7 +568,7 @@ galaxy:
   # conda_prefix is the location on the filesystem where Conda packages
   # and environments are installed.
   # Sample default '<tool_dependency_dir>/_conda'
-  #conda_prefix: null
+  conda_prefix: /home/icog-bioai2/miniconda3
 
   # Override the Conda executable to use, it will default to the one on
   # the PATH (if available) and then to <conda_prefix>/bin/conda
@@ -644,7 +644,7 @@ galaxy:
   # not exist).
   # The value of this option will be resolved with respect to
   # <config_dir>.
-  #tool_sheds_config_file: tool_sheds_conf.xml
+  tool_sheds_config_file: tool_sheds_conf.xml
 
   # Monitor the tools and tool directories listed in any tool config
   # file specified in tool_config_file option.  If changes are found,
@@ -1783,6 +1783,9 @@ galaxy:
   # mysite.com,google.com,usegalaxy.org,/^[\w\.]*example\.com/ See:
   # https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
   #allowed_origin_hostnames: null
+  # allowed_origin_hostnames: 100.67.47.42:4003
+  allowed_origin_hostnames: '*'
+
 
   # Set to true to use Jupyter nbconvert to build HTML from Jupyter
   # notebooks in Galaxy histories.  This process may allow users to
@@ -1892,7 +1895,7 @@ galaxy:
 
   # Add an option to the library upload form which allows administrators
   # to upload a directory of files.
-  #library_import_dir: null
+  library_import_dir: /cvmfs/data.galaxyproject.org
 
   # Add an option to the library upload form which allows authorized
   # non-administrators to upload a directory of files.  The configured
@@ -2074,7 +2077,7 @@ galaxy:
   # Admin section of the server, and will have access to create users,
   # groups, roles, libraries, and more.  For more information, see:
   # https://galaxyproject.org/admin/
-  admin_users: tibebe.solomon@singularitynet.io,kewserseid91@gmail.com
+  admin_users: tibebe.solomon@singularitynet.io,kewserseid91@gmail.com,mike@rejuve.bio,saulo@singularitynet.io, ytaye715@gmail.com
 
   # Force everyone to log in (disable anonymous access).
   #require_login: false

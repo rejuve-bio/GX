@@ -7,6 +7,10 @@
         <tool file="interactive/interactivetool_tabulator.xml" />
         <tool file="interactive/interactive_node_tool.xml" />
         <tool file="interactive/interactivetool_jupyter_notebook_1.0.0.xml" />
+        <tool file="interactive/interactivetool_qb.xml" />
+  </section>
 
+  <section id="gwas_tool" name="GWAS tools">
+      <tool file="gwaslab/gwas_sumstats_tool.xml" />
   </section>
 </toolbox>

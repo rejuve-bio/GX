@@ -1,0 +1,105 @@
+<data_managers><data_manager id="all_fasta_by_path_manager" version="0.0.1" guid="toolshed.g2.bx.psu.edu/repos/brenninc/data_manager_all_fasta_path/data_manager/all_fasta_by_path_manager/0.0.1" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+        <tool file="toolshed.g2.bx.psu.edu/repos/brenninc/data_manager_all_fasta_path/33e7d904fdc3/data_manager_all_fasta_path/data_manager/all_fasta_by_path_data_manager.xml" guid="toolshed.g2.bx.psu.edu/repos/brenninc/data_manager_all_fasta_path/all_fasta_by_path_manager/0.0.1"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_all_fasta_path</repository_name><repository_owner>brenninc</repository_owner><installed_changeset_revision>33e7d904fdc3</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/brenninc/data_manager_all_fasta_path/all_fasta_by_path_manager/0.0.1</id><version>0.0.1</version></tool><data_table name="all_fasta">
+            <output>
+                <column name="value"/>
+                <column name="dbkey"/>
+                <column name="name"/>
+                <column name="path"/>
+            </output>
+        </data_table>
+    </data_manager>
+
+<data_manager id="gene_annotation_fetcher" version="1.0.0" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/data_manager/gene_annotation_fetcher/1.0.0" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+        <tool file="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/e4b92f2ca217/data_manager_fetch_gene_annotation/data_manager/gene_annotation_fetcher.xml" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.2"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_fetch_gene_annotation</repository_name><repository_owner>scottx611x</repository_owner><installed_changeset_revision>e4b92f2ca217</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.2</id><version>1.0.2</version></tool><data_table name="gff_gene_annotations">
+            <output>
+                <column name="value"/>
+                <column name="dbkey"/>
+                <column name="name"/>
+                <column name="path" output_ref="out_file">
+                    <move type="file">
+                        <source>${path}</source>
+                        <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>
+                    </move>
+                    <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${dbkey}/seq/${path}</value_translation>
+                    <value_translation type="function">abspath</value_translation>
+                </column>
+            </output>
+        </data_table>
+    </data_manager>
+
+<data_manager id="gene_annotation_fetcher" version="1.0.0" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/data_manager/gene_annotation_fetcher/1.0.0" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+		<tool file="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/16e961b2f35c/data_manager_fetch_gene_annotation/data_manager_gene_annotation/data_manager/gene_annotation_fetcher.xml" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.0"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_fetch_gene_annotation</repository_name><repository_owner>scottx611x</repository_owner><installed_changeset_revision>16e961b2f35c</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.0</id><version>1.0.0</version></tool><data_table name="gene_annotation">
+			<output>
+				<column name="value"/>
+				<column name="dbkey"/>
+				<column name="name"/>
+				<column name="path" output_ref="out_file">
+					<move type="file">
+						<source>${path}</source>
+						<target base="${GALAXY_DATA_MANAGER_DATA_PATH}">gene_annotations/${value}</target>
+					</move>
+					<value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/gene_annotations/${value}</value_translation>
+					<value_translation type="function">abspath</value_translation>
+				</column>
+			</output>
+		</data_table>
+	</data_manager>
+
+<data_manager id="gene_annotation_fetcher" version="1.0.0" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/data_manager/gene_annotation_fetcher/1.0.0" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+        <tool file="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/3a02b8ab423a/data_manager_fetch_gene_annotation/data_manager/gene_annotation_fetcher.xml" guid="toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.1"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_fetch_gene_annotation</repository_name><repository_owner>scottx611x</repository_owner><installed_changeset_revision>3a02b8ab423a</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/scottx611x/data_manager_fetch_gene_annotation/gene_annotation_fetcher_data_manager/1.0.1</id><version>1.0.1</version></tool><data_table name="gff_gene_annotations">
+            <output>
+                <column name="value"/>
+                <column name="dbkey"/>
+                <column name="name"/>
+                <column name="path" output_ref="out_file">
+                    <move type="file">
+                        <source>${path}</source>
+                        <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>
+                    </move>
+                    <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${dbkey}/seq/${path}</value_translation>
+                    <value_translation type="function">abspath</value_translation>
+                </column>
+            </output>
+        </data_table>
+    </data_manager>
+
+<data_manager id="bwa_mem2_index_builder" guid="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_bwa_mem2_index_builder/data_manager/bwa_mem2_index_builder/0.0.1" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+        <tool file="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_bwa_mem2_index_builder/62d6a9024b3c/data_manager_bwa_mem2_index_builder/data_manager/bwa_mem2_index_builder.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_bwa_mem2_index_builder/bwa_mem2_index_builder_data_manager/2.2.1+galaxy1"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_bwa_mem2_index_builder</repository_name><repository_owner>iuc</repository_owner><installed_changeset_revision>62d6a9024b3c</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/iuc/data_manager_bwa_mem2_index_builder/bwa_mem2_index_builder_data_manager/2.2.1+galaxy1</id><version>2.2.1+galaxy1</version></tool><data_table name="bwa_mem2_indexes">
+            <output>
+                <column name="value"/>
+                <column name="dbkey"/>
+                <column name="name"/>
+                <column name="path" output_ref="out_file">
+                    <move type="directory" relativize_symlinks="True">
+                        <!-- <source>${path}</source>--> <!-- out_file.extra_files_path is used as base by default --> <!-- if no source, eg for type=directory, then refers to base -->
+                        <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">genomes/${dbkey}/bwa_mem_index/v2/${value}</target>
+                    </move>
+                    <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/genomes/${dbkey}/bwa_mem_index/v2/${value}/${path}</value_translation>
+                    <value_translation type="function">abspath</value_translation>
+                </column>
+            </output>
+        </data_table>
+    </data_manager>
+<data_manager id="rna_star_index_builder" guid="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/data_manager/rna_star_index_builder/0.0.1" shed_conf_file="/mnt/hdd_1/tibebe/galaxy_remote/galaxy/config/shed_tool_conf.xml">
+        <tool file="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/71c994a11f71/data_manager_star_index_builder/data_manager/rna_star_index_builder.xml" guid="toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a+galaxy3"><tool_shed>toolshed.g2.bx.psu.edu</tool_shed><repository_name>data_manager_star_index_builder</repository_name><repository_owner>iuc</repository_owner><installed_changeset_revision>71c994a11f71</installed_changeset_revision><id>toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a+galaxy3</id><version>2.7.4a+galaxy3</version></tool><data_table name="rnastar_index2x_versioned">
+            <output>
+                <column name="value"/>
+                <column name="dbkey"/>
+                <column name="name"/>
+                <column name="path" output_ref="out_file">
+                    <move type="directory" relativize_symlinks="True">
+                        <!-- <source>${path}</source>
+                            out_file.extra_files_path is used as base by default
+                            if no source, eg for type=directory, then refers to base 
+                        -->
+                        <target base="${GALAXY_DATA_MANAGER_DATA_PATH}">genomes/${dbkey}/rnastar_index/v${version}/${value}</target>
+                    </move>
+                    <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/genomes/${dbkey}/rnastar_index/v${version}/${value}</value_translation>
+                    <value_translation type="function">abspath</value_translation>
+                </column>
+                <column name="with_gene_model"/>
+                <column name="version"/>
+            </output>
+        </data_table>
+    </data_manager>
+</data_managers>
