@@ -18,6 +18,6 @@
   "homepage": "https://github.com/galaxyproject/galaxy#readme",
   "dependencies": {
     "@galaxyproject/galaxy-client": "^24.0.0",
-    "cpy-cli": "^5.0.0"
+    "cpy-cli": "^7.0.0"
   }
 }
